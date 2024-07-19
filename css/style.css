@@ -30,6 +30,7 @@ ul {
 
 body {
   font-family: "Roboto";
+}
 
 .container {
     width: 1200px;
@@ -38,6 +39,8 @@ body {
     padding-top: 24px;
     padding-bottom: 25px;
     outline: 1px solid red;
+    display: flex;
+    align-items: center;
 }
 
 .container-hero {
@@ -110,8 +113,6 @@ body {
   padding-bottom: 60px;
   outline: 1px solid red;
 }
-
-}
 .header-logo {
   color: var(--logo-color);
   font-family: "Raleway";
@@ -128,6 +129,12 @@ body {
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
 .nav-link {
   color: var(--text-color);
   font-size: 14px;
@@ -194,7 +201,7 @@ body {
   line-height: 1.16;
   letter-spacing: 1.08px;
 }
-z{
+{
   background-color: var(--team-background);
 }
 .team-title {
